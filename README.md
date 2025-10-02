@@ -31,6 +31,7 @@ def get_courses_list(courses_url):
     else:
         print("can't load list of courses")
         exit()
+```
 
 Теперь примерим на себя роль провидца и подумаем какой функционал потребуется 
 через месяц:
@@ -77,7 +78,8 @@ def get_course_info(html):
     # .... parsing logic
 
     return course_data
-    
+```
+ 
 #### Что может произойти с кодом дальше?
 
 Если рейтинга нет — надо искать его на другом сайте.
@@ -130,6 +132,7 @@ days_before_start ?
 крупных проектов. Это один из базовых приемов, нужно уверенно им владеть.
 
 >>>>>>> upstream/urls
+
 
 
 
